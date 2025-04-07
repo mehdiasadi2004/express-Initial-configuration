@@ -1,9 +1,0 @@
-2025-04-04 10:56:03 error: res.status is not a function
-2025-04-04 11:29:24 error: Converting circular structure to JSON
-    --> starting at object with constructor 'Socket'
-    |     property 'parser' -> object with constructor 'HTTPParser'
-    --- property 'socket' closes the circle
-2025-04-04 11:33:08 error: Converting circular structure to JSON
-    --> starting at object with constructor 'Socket'
-    |     property 'parser' -> object with constructor 'HTTPParser'
-    --- property 'socket' closes the circle

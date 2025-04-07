@@ -1,8 +1,0 @@
-2025-04-04 11:33:27 error: Converting circular structure to JSON
-    --> starting at object with constructor 'Socket'
-    |     property 'parser' -> object with constructor 'HTTPParser'
-    --- property 'socket' closes the circle
-2025-04-04 11:33:28 error: Converting circular structure to JSON
-    --> starting at object with constructor 'Socket'
-    |     property 'parser' -> object with constructor 'HTTPParser'
-    --- property 'socket' closes the circle

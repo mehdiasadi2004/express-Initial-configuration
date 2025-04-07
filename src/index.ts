@@ -1,6 +1,5 @@
 import express, { Request, Response, NextFunction } from "express";
 import cors from "cors";
-import userController from "./users/usersControllers";
 import productsController from "./products/productsControllers";
 import mongoose from "mongoose";
 import { authController } from "./auth";
@@ -23,7 +22,6 @@ app.get("/", myMidleware, (req, res) => {
 app.use(cors());
 // for all app use cors middle ware
 app.use(express.json());
-app.use("/users", userController);
 app.use("/products", productsController);
 app.use("/auth", authController);
 
